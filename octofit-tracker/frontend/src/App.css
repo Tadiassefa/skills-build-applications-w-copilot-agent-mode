@@ -1,0 +1,125 @@
+
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #22223b;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  text-align: center;
+}
+
+
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #22223b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #f2e9e4;
+}
+
+
+.App-link, a {
+  color: #4f8cff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.App-link:hover, a:hover {
+  color: #22223b;
+  text-decoration: underline;
+}
+
+/* Navigation Bar */
+.navbar {
+  background: linear-gradient(90deg, #22223b 0%, #4a4e69 100%);
+  border-bottom: 3px solid #9a8c98;
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #f2e9e4 !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:focus, .navbar-nav .nav-link:hover {
+  color: #c9ada7 !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #22223b;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Tables and Lists */
+table, .list-group-item {
+  background: #f2e9e4;
+  color: #22223b;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #c9ada7;
+}
+table th, table td {
+  padding: 12px 16px;
+}
+table th {
+  background: #9a8c98;
+  color: #fff;
+}
+
+/* Buttons */
+button, .btn {
+  background: linear-gradient(90deg, #4f8cff 0%, #22223b 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 20px;
+  font-weight: 600;
+  transition: background 0.2s, color 0.2s;
+  margin: 4px;
+}
+button:hover, .btn:hover {
+  background: linear-gradient(90deg, #22223b 0%, #4f8cff 100%);
+  color: #f2e9e4;
+}
+
+/* Container */
+.container {
+  background: rgba(255,255,255,0.85);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(34,34,59,0.08);
+  padding: 32px 24px;
+  margin-top: 32px;
+}
+
+/* Favicon (no CSS needed, handled in HTML) */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
