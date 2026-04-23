@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^source octofit-tracker/backend/venv/bin/activate && python octofit-tracker/backend/manage\\.py migrate --fake-initial$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
